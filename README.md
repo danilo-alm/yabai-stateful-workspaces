@@ -13,7 +13,7 @@ It runs as a background service, listens to a Unix named pipe (FIFO) for command
 
 ## Installation
 
-You can get the latest binary from the releases section or build it yourself:
+You can get the latest binary from the releases section, or just build it yourself:
 
 ```sh
 git clone https://github.com/danilo-alm/yabai-stateful-workspaces
@@ -21,6 +21,12 @@ cd yabai-stateful-workspaces
 
 # Build and install to /usr/local/bin
 sudo make install
+```
+
+You can also `go install` it:
+
+```sh
+go install github.com/danilo-alm/yabai-stateful-workspaces@latest
 ```
 
 Or just build the binary to `dist/yabai-stateful-workspaces`:
